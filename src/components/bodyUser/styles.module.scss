@@ -1,0 +1,36 @@
+.dashboards{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 296px;
+
+    .welcome{
+        height: 131px;
+        width: 100%;
+        padding-top: 24px;
+        border-block: 1px solid var(--grey-1);
+    }
+
+    .info__page{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        margin-block: 24px;
+    }
+
+   h2{
+        font-family: Inter;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        color: var(--grey-0);
+   }
+
+   p{
+        font-family: Inter;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24.26px;
+        color: #ffffff;
+   }
+}

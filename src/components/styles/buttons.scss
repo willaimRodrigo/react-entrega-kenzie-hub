@@ -1,0 +1,71 @@
+.btn__enter{
+    width: 259.9px;
+    height: 38.5px;
+    border-radius: 3.26px;
+    border: 0.98px;
+
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 12.83px;
+    line-height: 21.17px;
+    color: #ffffff;
+    background-color: var(--color-primary);
+    margin-block: 10px;
+}
+
+.btn__register{
+    width: 259.9px;
+    height: 38.5px;
+    border-radius: 3.26px;
+    border: 0.98px;
+
+    font-family: Inter;
+    color: var(--grey-0);
+    background-color: var(--grey-1);
+    font-weight: 500;
+    font-size: 12.83px;
+    line-height: 21.17px;
+    margin-bottom: 33px;
+}
+
+.btn__back{
+    width: 79.54px;
+    height: 31.95px;
+    border-radius: 3.2px;
+
+    color: var(--grey-0);
+    background-color: var(--grey-3);
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 9.59px;
+    line-height: 22.73px;
+    align-items: center;
+}
+
+.btn__finalyRegister{
+    width: 260.65px;
+    height: 38.38px;
+    border-radius: 3.2px;
+    border: 0.97px;
+
+    color: #ffffff;
+    background-color: #59323f;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 12.79px;
+    line-height: 21.1px;
+}
+
+.btn__logout{
+    width: 55.49px;
+    height: 32px;
+    border-radius: 4px;
+    
+    color: var(--grey-0);
+    background-color: var(--grey-3);
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 28.42px;
+    align-items: center;
+}

@@ -1,0 +1,24 @@
+.div__register{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 21px;
+    width: 295.83px;
+    margin: 61px 0px 30px 0px;
+
+    img{
+        width: 101px;
+        height: 14px;
+    }
+
+    
+    .link {
+        text-decoration: none;
+        color: var(--grey-0);
+      }
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}

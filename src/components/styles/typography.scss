@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nunito:wght@600&display=swap");
+
+%fonts{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+
+.title1 {
+    @extend %fonts;
+    size: 18px;
+    font-weight: bold;
+}
+
+.title2 {
+    @extend %fonts;
+    size: 16px;
+    font-weight: bold;
+}
+
+.headline {
+    @extend %fonts;
+    size: 12px;
+}
+
+.headlineBold {
+    @extend %fonts;
+    size: 12px;
+    font-weight: bold;
+}
+
+.paragraph {
+    @extend %fonts;
+    size: 16px;
+}
