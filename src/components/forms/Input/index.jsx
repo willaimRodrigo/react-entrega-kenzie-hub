@@ -1,5 +1,3 @@
-/* eslint-disable react/display-name */
-/* eslint-disable react/prop-types */
 import { forwardRef } from "react";
 
 export const Input = forwardRef(({ label, error, ...rest }, ref) => {

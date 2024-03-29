@@ -50,14 +50,25 @@
         color: var(--grey-1);
     }
 
-   
-
-    .link {
-        text-decoration: none;
-        color: var(--grey-0);
-      }
-
     ::placeholder{
         padding-left: 10px;
+    }
+
+    @media(min-width: 768px){
+       width: 369px;
+       border-radius: 4px; 
+
+       input{
+        width: 325px;
+        height: 48px;
+       }
+
+       label{
+        font-size: 12.18px;
+       }
+
+       p{
+        font-size: 12px;
+       }
     }
 }

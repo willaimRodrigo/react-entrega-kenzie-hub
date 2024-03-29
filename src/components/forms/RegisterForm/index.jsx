@@ -94,31 +94,35 @@ export const RegisterForm = ({setUser}) => {
                     
                     <label className={style.option}>Selecionar Módulo</label>
 
-                    <select required>
-                        <option value="" disabled selected >
+                    <select
+                        {...register("course_module")}
+                    >
+                        <option value="" hidden>
                             Selecione seu módulo
                         </option>
 
                         <option value="Primeiro Módulo (Introdução a programação)">
-                            <label>Primeiro Módulo</label></option>
+                            Primeiro Módulo</option>
                         
                         <option value="Segundo Módulo(Front-end Intermediário)">
-                            <label>Segundo Módulo</label>
+                            Segundo Módulo
                         </option>
                         
                         <option value="Terceiro Módulo (Front-end Avançado)">
-                            <label>Terceiro Módulo</label>
+                            Terceiro Módulo
                         </option>
                         
                         <option value="Quarto Módulo (Introdução ao Back-end)">
-                            <label>Quarto Módulo</label>
+                           Quarto Módulo
                         </option>
                         
                         <option value="Quinto Módulo (Back-end Intermediário)">
-                            <label>Quinto Módulo</label>
+                            Quinto Módulo
                         </option>
-                        
+                    
                     </select>
+
+                    
 
                     
                     <button className="btn__finalyRegister" type="submit">Cadastrar</button>

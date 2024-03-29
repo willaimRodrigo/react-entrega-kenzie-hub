@@ -5,6 +5,9 @@
     width: 296px;
 
     .welcome{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         height: 131px;
         width: 100%;
         padding-top: 24px;
@@ -26,6 +29,13 @@
         color: var(--grey-0);
    }
 
+   .course{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        color: var(--grey-1);
+   }
+
    p{
         font-family: Inter;
         font-weight: 400;
@@ -33,4 +43,13 @@
         line-height: 24.26px;
         color: #ffffff;
    }
+
+    @media(min-width: 768px){
+        width: 725px;
+        align-items: flex-start;
+
+        .welcome{
+            height: 118px;
+        }
+    }
 }

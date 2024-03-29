@@ -13,6 +13,8 @@ export const RouterMain = () => {
     const logout = () => {
         setUser(null);
         navigate("/");
+
+        localStorage.removeItem("@kenziehub:id");
     }
 
     return(

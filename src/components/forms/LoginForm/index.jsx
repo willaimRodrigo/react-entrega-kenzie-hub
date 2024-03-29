@@ -41,7 +41,7 @@ export const LoginForm = ({setUser}) => {
 
         <div className={style.div__login}>
             <div className={style.div__title}>
-                <h2>Login</h2>
+                <h2>Login</h2> 
             </div>
 
             <form onSubmit={handleSubmit(onSubmit)}>
@@ -66,7 +66,7 @@ export const LoginForm = ({setUser}) => {
 
                 <p className="paragraph">Ainda não tem uma conta?</p>
                 
-                <button className="btn__register"><Link to={"/register"} className={style.link}>Cadastre-se</Link></button>
+                <Link to={"/register"} className="btn__register">Cadastre-se</Link>
             </form>
 
         </div>

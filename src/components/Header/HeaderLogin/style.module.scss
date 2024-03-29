@@ -8,4 +8,11 @@
         height: 14px;
         margin-block: 31px;
     }
+
+    @media(min-width: 768px){
+        img{
+            width: 144px;
+            height: 19.97px;
+        }
+    }
 }

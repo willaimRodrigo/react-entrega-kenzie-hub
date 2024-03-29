@@ -16,9 +16,22 @@
         text-decoration: none;
         color: var(--grey-0);
       }
+      
+    @media(min-width: 768px){
+        width: 370px;
+        height: 48px;
+
+        img{
+            width: 122px;
+            height: 21.21px;
+        }
+    }
+
+
 }
 
 header{
     display: flex;
     justify-content: center;
 }
+

@@ -7,7 +7,7 @@ export const BodyUser = ({user}) => {
         <div className={style.dashboards}>
             <div className={style.welcome}>
                 <h2>Olá, {user?.name}</h2>
-                <p>{user?.module}</p> 
+                <p className={style.course}>{user?.course_module}</p> 
             </div>
             <div className={style.info__page}>
                 <h2>Que pena! Estamos em desenvolvimentos :( </h2>

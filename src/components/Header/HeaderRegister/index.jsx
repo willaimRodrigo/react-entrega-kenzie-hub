@@ -8,7 +8,7 @@ export const HeaderRegister = () => {
         <header>
             <div className={style.div__register}>
                 <img src={Logo} alt="Logo Kenzie Hub" />
-                <button className="btn__back"><Link to={"/"} className={style.link}>Voltar</Link></button>
+                <Link to={"/"} className="btn__back">Voltar</Link>
             </div>
         </header>
     )

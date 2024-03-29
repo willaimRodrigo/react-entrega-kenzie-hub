@@ -24,15 +24,6 @@
         color: var(--grey-0);
     }
 
-    p{
-        font-family: Inter;
-        font-weight: 400;
-        font-size: 9.59px;
-        line-height: 17.59px;
-        color: var(--grey-1);
-        margin-bottom: 18px;
-    }
-
     form{
         display: flex;
         flex-direction: column;
@@ -86,5 +77,38 @@
 
     ::placeholder{
         padding-left: 10px;
+    }
+
+    @media(min-width: 768px){
+        width: 370px;
+        border-radius: 4px;
+
+        h2{
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 28px;
+        }
+
+        p{
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 22px;
+        }
+
+        input{
+            width: 330px;
+            height: 48px;
+            border-radius: 4px;
+        }
+
+        label{
+            font-size: 12.18px;
+        }
+
+        select{
+            width: 330px;
+            height: 48px;
+            border-radius: 4px;
+        }
     }
 }
